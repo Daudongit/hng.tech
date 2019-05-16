@@ -22,6 +22,7 @@
       '/support' => 'support.php',
       '/about' => 'about.php',
       '/interns' => 'interns.php',
+      '/interns1' => 'interns1.php',
       '/interns/current' => 'current.php',
       '/become-intern' => 'become-intern.php',
       '/template' => 'interns/template.php',
