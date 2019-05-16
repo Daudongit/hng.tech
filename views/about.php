@@ -9,8 +9,8 @@
 					<div class="row">
 						<div class="about-text col-md-6">
 							<h1 class="hp-header">What is the Internship?</h1>
-							<h3 class="hp-subheader ap-subheader"><strong>We believe opportunity should be evenly distributed</strong></h3>
-							<p class="hp-header-text">. . .and also made easily accessible to everyone.</p>
+							<h3 class="hp-subheader ap-subheader"><strong>We find the most talented African developers</strong></h3>
+							<p class="hp-header-text">. . .and give them the opportunity to excel.</p>
 						</div>
 						<div class="col-md-6 ap-toon">
 							<img class="toon-default" src="../app/img/ladytoon-office.svg" alt="lady">
@@ -79,14 +79,14 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="ap-works-rectangle rectangle-three">
 						<img src="../app/img/computer.svg" class="" alt="angry-man-icon">
-						<p class="blue-rectangle-text">ARE INTRODUCED TO COMPLEX PROGRAMMING FRAMEWORKS</p>
+						<p class="blue-rectangle-text">THE INTERNS ARE INTRODUCED TO COMPLEX PROGRAMMING FRAMEWORKS</p>
 					</div>
 				</div>
 		
 				<div class="col-md-4 col-sm-6">
 					<div class="ap-works-rectangle rectangle-four">
 						<img src="../app/img/scaling-icon.svg" class="" alt="scaling-icon">
-						<p class="blue-rectangle-text">THE INTERNS CODERS GET TO WORK ON REAL WORLD APPLICATIONS THAT SCALE</p>
+						<p class="blue-rectangle-text">THE INTERN CODERS GET TO WORK ON REAL WORLD APPLICATIONS THAT SCALE</p>
 					</div>
 				</div>
 				<div class="col-md-8 col-sm-12 ">

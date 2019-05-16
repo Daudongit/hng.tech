@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<!-- <head>
+<!-- <head>
 		<meta charset="UTF-8">
 		<title>The HNG Internship</title>
 		<link rel="stylesheet" href="app/css/app.css?version=1'" type="text/css"/>
@@ -10,32 +10,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head> -->
 
-  <?php
-  require_once('router.php');
-  // We'll first create a router instance and then register our
-  // static routes with the router. Next, we'll try to parse the
-  //request url and match it against routes in the collection.
-  $router = new Router;
-  // Add the static routes
-  $router->add([
-      '/' => 'index.php',
-      '/support' => 'support.php',
-      '/about' => 'about.php',
-      '/interns' => 'interns.php',
-      '/interns1' => 'interns1.php',
-      '/interns/current' => 'current.php',
-      '/become-intern' => 'become-intern.php',
-      '/template' => 'interns/template.php',
-      '/test' => 'interns/test.php'
-  ]);
-  $request = $_SERVER['REQUEST_URI'];
-  if (strlen($request) > 1) {
-    $request = rtrim($request, '/');
-  }
+<?php
+require_once('router.php');
+require_once('config.php');
+// We'll first create a router instance and then register our
+// static routes with the router. Next, we'll try to parse the
+//request url and match it against routes in the collection.
+$router = new Router;
+// Add the static routes
+$router->add([
+  '/' => 'index.php',
+  '/support' => 'support.php',
+  '/about' => 'about.php',
+  '/interns' => 'interns.php',
+  '/interns1' => 'interns1.php',
+  '/interns/current' => 'current.php',
+  '/become-intern' => 'become-intern.php',
+  '/whizline' => 'whizline.php',
+  '/mfon' => 'interns/mfon.php',
+  '/template' => 'interns/template.php',
+  '/test' => 'interns/test.php',
+  '/blog' => 'blog.php',
+  '/hng5/finalists' => 'hng5-finalists.php'
+]);
+$request = $_SERVER['REQUEST_URI'];
+if (strlen($request) > 1) {
+  $request = rtrim($request, '/');
+}
 
-  $view = $router->match($request);
-  
-  require $view;
+$view = $router->match($request);
+
+require $view;
 ?>
 
 </html>

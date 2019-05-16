@@ -59,7 +59,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
+					<!-- <div class="col-md-3 col-xs-6">
 						<div class="sp-contribute-box">
 							<div class="sp-contribute-img">
 								<img src="../app/img/coin.svg" alt="HNG coin" class="">
@@ -71,7 +71,7 @@
 								</svg>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
@@ -89,7 +89,7 @@
 							<div> 
 								<p><strong>Female Developers and Designers</strong></p>
 								<p>The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship.</p>
-								<button class="sp-sponsor-btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../app/img/arrow-circle.svg"> Get started</button>
+								<button class="sp-sponsor-btn" data-toggle="modal" data-target="#priceModal"><img src="../app/img/arrow-circle.svg"> Get started</button>
 							</div>
 						</div>
 						<div class="sp-sponsor-group">
@@ -97,7 +97,7 @@
 							<div>
 								<p><strong>User Interface Designers</strong></p>
 								<p>The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship.</p>
-								<button class="sp-sponsor-btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../app/img/arrow-circle.svg"> Get started</button>
+								<button class="sp-sponsor-btn" data-toggle="modal" data-target="#priceModal"><img src="../app/img/arrow-circle.svg"> Get started</button>
 							</div>
 						</div>
 						<div class="sp-sponsor-group">
@@ -105,7 +105,7 @@
 							<div>
 								<p><strong>Sponsor via software or tool</strong></h4>
 								<p>The HNG Internship does not earn any money. We raise money and pay the interns all the money we raise on each internship.</p>
-								<button class="sp-sponsor-btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../app/img/arrow-circle.svg"> Get started</button>
+								<button class="sp-sponsor-btn" data-toggle="modal" data-target="#priceModal"><img src="../app/img/arrow-circle.svg"> Get started</button>
 							</div>
 						</div>
 					</div>
@@ -121,10 +121,11 @@
 				</div>
 				<div class="sp-partners-container">
 					<div class=""><img src="../app/img/hng.svg"></div>
-					<div class=""><img src="../app/img/akwa.svg"></div>
+					<div class=""><img src="../app/img/akwa-ibom.png" style="width:100px;"></div>
 					<div class=""><img src="../app/img/oracle.svg"></div>
 					<div class=""><img src="../app/img/figma.svg"></div>
 					<div class=""><img src="../app/img/bluechip.svg"></div>
+					<div class=""><img src="../app/img/verifi_logo.svg" style="width:100px;"></div>
 				</div>
 			</div>
 		</section>

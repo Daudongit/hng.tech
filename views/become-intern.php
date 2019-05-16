@@ -26,7 +26,7 @@
 					<p class="hp-header-text">Learn, grow and scale your software developer career with real world experience.</p>
 					<p class="hp-header-text"> The Next Internship starts in Febuary. Click on the link below to join </p>
 					<br>
-					<a class="bi-btn primary-button" href="https://docs.google.com/forms/d/1cfhq31KfV1X8iWeVm8O0ocNd4_OuZl7AlfJud47R5DU/viewform?edit_requested=true#responses">Join now</a><br><br>
+					<a class="bi-btn primary-button" href="join-now">Join now</a><br><br>
 				</div>
 			</div>
 		</div>
@@ -88,6 +88,10 @@
 							<p class="h4 bi-stats-interns">4,000 <br>interns</p>
 							<p class="bi-stats-batch">BATCH 4</p>
 						</div>
+						<div class="count-text col-md-3">
+							<p class="h4 bi-stats-interns">5,700 <br>interns</p>
+							<p class="bi-stats-batch">BATCH 5</p>
+						</div>
 					</div>
 					<div class="bi-stats-infos">
 						<div class="bi-stats-info">
@@ -111,6 +115,7 @@
 					</div>
 				</div>
 			</div>
+		
 		</div>
 		<div class="">
 			<div class="container">
@@ -131,7 +136,7 @@
 				<div class="">
 					<p class="h3 last-text1">Get started on your tech career</p>
 					<p class="bi-join-info">The HNG Internship 5.0 starts in Febuary. Click on this link to join the waiting list</p>
-					<a class="bi-btn primary-button" href="https://docs.google.com/forms/d/1cfhq31KfV1X8iWeVm8O0ocNd4_OuZl7AlfJud47R5DU/viewform?edit_requested=true#responses">Join now</a><br><br>
+					<a class="bi-btn primary-button" href="join-now">Join now</a><br><br>
 				</div>
 					
 			</div>

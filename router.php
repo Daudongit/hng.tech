@@ -15,7 +15,8 @@ class Router
     protected $viewPaths = [
       '',
       'interns/'
-    ];
+    
+];
     /**
      * Create an instance of the router.
      *
@@ -59,7 +60,7 @@ class Router
             return $this->getViewPath().$this->routes[$url];
         }
 
-        preg_match('/(.*\/(.*))/', $url, $matches);
+        preg_match('/(.*\/(.*))/', $url, $matches); 
         foreach ($this->viewPaths as $path) {
             if (@file_exists($matchedPath = $this->getViewPath($path).$path.end($matches).'.php')) {
                 return $matchedPath;
@@ -75,5 +76,7 @@ class Router
     protected function getViewPath()
     {
         return $this->basePath.'views/';
+        
     }
 }
+?>

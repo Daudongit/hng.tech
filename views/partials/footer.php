@@ -12,7 +12,7 @@
 			<p class="">interns@hng.tech <br>+234 (0) 812 345 6789</p>
 		</div>
 		<div class="footer-btn-container">
-			<a href="mailto:interns@hng.tech" class="primary-button footer-btn">Contact us</a>
+			<a href="../views/contact.php" class="primary-button footer-btn">Contact us</a>
 		</div>
 	</div>
 

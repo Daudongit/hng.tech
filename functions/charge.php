@@ -1,6 +1,5 @@
 <?php
-require_once('../vendor/autoload.php');
-
+$stripe_secret_key = getenv('STRIPE_SECRET_KEY');
 
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 // Get the token from the JS script
@@ -19,17 +18,14 @@ $customer = \Stripe\Customer::create(array(
 
 
 $charge = \Stripe\Charge::create(array(
-    "amount" => $amount.'00',
+    "amount" => $amount . '00',
     "currency" => "ngn",
     "customer" => $customer->id
     // 'source' => $token
 ));
 
-if($charge){
+if ($charge) {
     http_response_code(200);
-}else{
+} else {
     http_response_code(500);
 }
-
-
-?>
